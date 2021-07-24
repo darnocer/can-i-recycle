@@ -36,55 +36,51 @@ function App() {
 
   return (
     <div className="App">
-      <header class="header">
-        <p class="attribution">
+      <header className="header">
+        <p className="attribution">
           Built By{" "}
           <a href="https://www.darian.digital" target="_blank">
             darian.
           </a>
         </p>
-        <h1 class="title">Can I Recyle It</h1>
+        <h1 className="title">Can I Recyle...</h1>
         <input
           type="text"
-          placeholder="Search"
-          class="search"
+          placeholder="milk jugs, egg cartons, etc."
+          className="search"
           onChange={(event) => handleSearch(event)}
         />
       </header>
 
-      <section class="container">
+      <section className="container">
         {filteredData.map((value, index) => {
           return (
-            <div class="cards">
-              <div class="card" key="value.name">
-                <div class="category">
-                  <h3>{value.category}</h3>
-                </div>
-                <h2 class="item-name">{value.name}</h2>
-                <div class="recyclable">
+            <div className="cards">
+              <div className="card" key="value.name">
+                <h3 className="category">{value.category}</h3>
+
+                <h2 className="item-name">{value.name}</h2>
+                <div className="recyclable">
                   {value.recyclable === "yes" ? (
-                    <p class="recyclable-text">
-                      <span class="positive">
+                    <p className="recyclable-text">
+                      <span className="positive">
                         <FontAwesomeIcon icon={faCheckCircle} />
-                        <span class="margin"> {value.recyclable}</span>
+                        <span className="margin"> {value.recyclable}</span>
                       </span>
                     </p>
                   ) : (
-                    <p class="recyclable-text">
-                      <span class="negative">
+                    <p className="recyclable-text">
+                      <span className="negative">
                         <FontAwesomeIcon icon={faTimesCircle} />
-                        <span class="margin">{value.recyclable}</span>
+                        <span className="margin">{value.recyclable}</span>
                       </span>
                     </p>
                   )}
                 </div>
 
                 {value.details ? (
-                  <div class="details">
-                    <p class="details-text">
-                      <span class="label">Details: </span>
-                      {value.details}
-                    </p>
+                  <div className="details">
+                    <p className="details-text">{value.details}</p>
                   </div>
                 ) : null}
               </div>

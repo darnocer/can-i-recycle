@@ -45,27 +45,26 @@
 
     .recyclable {
       padding: 2rem;
+      .recyclable-text {
+        font-size: 5rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .positive {
+        color: #5a8b44;
+      }
+
+      .negative {
+        color: #ea3f3f;
+      }
     }
 
-    .recyclable-text {
-      font-size: 3.5rem;
-      text-transform: uppercase;
-      text-align: center;
-    }
-    .positive {
-      color: #5a8b44;
-    }
-
-    .negative {
-      color: #ea3f3f;
+    .category {
+      color: #11998e;
     }
 
     .margin {
       margin-left: 0.5rem;
-    }
-
-    .label {
-      text-transform: uppercase;
     }
 
     .item-name {

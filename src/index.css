@@ -9,7 +9,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background-color: #e5e5e5; }
 
 body {
   box-sizing: border-box; }
@@ -27,6 +28,9 @@ h1 {
 h2 {
   font-size: 3rem; }
 
+h3 {
+  font-size: 1.5rem; }
+
 p,
 label {
   font-family: "Roboto", sans-serif;
@@ -34,21 +38,31 @@ label {
 
 a {
   text-decoration: none;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #11998e; }
+  a:visited {
+    color: #38ef7d; }
 
 .header {
   padding: 3rem;
   margin-bottom: 5rem;
   text-align: center; }
   .header .title {
-    font-size: 4rem;
+    font-size: 6rem;
     padding: 1rem; }
   .header .search {
-    border-radius: 5px;
+    border: 0;
+    border-bottom: 2px solid grey;
+    outline: 0;
+    background: transparent;
     min-height: 40px;
     width: 100%;
-    border-color: grey;
-    max-width: 500px; }
+    max-width: 500px;
+    font-size: 2rem; }
+    .header .search:focus {
+      border-width: 3px;
+      border-image: linear-gradient(to right, #11998e, #38ef7d);
+      border-image-slice: 1; }
   .header .attribution {
     position: absolute;
     right: 0;
@@ -95,18 +109,18 @@ a {
       transition: 0.3s ease; }
     .cards .card .recyclable {
       padding: 2rem; }
-    .cards .card .recyclable-text {
-      font-size: 3.5rem;
-      text-transform: uppercase;
-      text-align: center; }
-    .cards .card .positive {
-      color: #5a8b44; }
-    .cards .card .negative {
-      color: #ea3f3f; }
+      .cards .card .recyclable .recyclable-text {
+        font-size: 5rem;
+        text-transform: uppercase;
+        text-align: center; }
+      .cards .card .recyclable .positive {
+        color: #5a8b44; }
+      .cards .card .recyclable .negative {
+        color: #ea3f3f; }
+    .cards .card .category {
+      color: #11998e; }
     .cards .card .margin {
       margin-left: 0.5rem; }
-    .cards .card .label {
-      text-transform: uppercase; }
     .cards .card .item-name {
       padding-bottom: 2rem; }
     .cards .card .details {
