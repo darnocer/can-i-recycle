@@ -1,0 +1,77 @@
+//Flex container
+.container {
+  display: flex;
+  -webkit-display: box;
+  -moz-display: box;
+  -ms-display: flexbox;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+// Cards
+.cards {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  @media (min-width: 40rem) {
+    width: 50%;
+  }
+  @media (min-width: 56rem) {
+    width: 33.3%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    background: #eeeeee;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+
+    .recyclable {
+      padding: 2rem;
+    }
+
+    .recyclable-text {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .positive {
+      color: #5a8b44;
+    }
+
+    .negative {
+      color: #ea3f3f;
+    }
+
+    .margin {
+      margin-left: 0.5rem;
+    }
+
+    .label {
+      text-transform: uppercase;
+    }
+
+    .item-name {
+      padding-bottom: 2rem;
+    }
+
+    .details {
+      text-align: center;
+    }
+    .details-text {
+      color: grey;
+      font-size: 1.2rem;
+    }
+  }
+}

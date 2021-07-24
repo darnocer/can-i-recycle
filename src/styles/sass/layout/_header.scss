@@ -1,0 +1,18 @@
+.header {
+  padding: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+
+  .title {
+    font-size: 4rem;
+    padding: 1rem;
+  }
+
+  .search {
+    border-radius: 5px;
+    min-height: 40px;
+    width: 100%;
+    border-color: grey;
+    max-width: 500px;
+  }
+}

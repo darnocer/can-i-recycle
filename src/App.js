@@ -1,20 +1,16 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "./index.css";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCheckCircle,
+  faTimesCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [allData, setAllData] = useState([]);
   const [filteredData, setFilteredData] = useState(allData);
-
-  const styles = {
-    display: "inline",
-    width: "30%",
-    height: 50,
-    float: "left",
-    padding: 5,
-    border: "0.5px solid black",
-    marginBottom: 10,
-    marginRight: 10,
-  };
 
   useEffect(() => {
     axios("./data.json")
@@ -40,19 +36,56 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ margin: "0 auto", marginTop: "10%" }}>
-        <label>Search:</label>
-        <input type="text" onChange={(event) => handleSearch(event)} />
-      </div>
-      <div style={{ padding: 10 }}>
+      <header class="header">
+        <h1 class="title">Can I Recyle It</h1>
+        <input
+          type="text"
+          placeholder="Search"
+          class="search"
+          onChange={(event) => handleSearch(event)}
+        />
+      </header>
+
+      <section class="container">
         {filteredData.map((value, index) => {
           return (
-            <div key={value.name}>
-              <div style={styles}>{value.name}</div>
+            <div class="cards">
+              <div class="card" key="value.name">
+                <div class="category">
+                  <h3>{value.category}</h3>
+                </div>
+                <h2 class="item-name">{value.name}</h2>
+                <div class="recyclable">
+                  {value.recyclable === "yes" ? (
+                    <p class="recyclable-text">
+                      <span class="positive">
+                        <FontAwesomeIcon icon={faCheckCircle} />
+                        <span class="margin"> {value.recyclable}</span>
+                      </span>
+                    </p>
+                  ) : (
+                    <p class="recyclable-text">
+                      <span class="negative">
+                        <FontAwesomeIcon icon={faTimesCircle} />
+                        <span class="margin">{value.recyclable}</span>
+                      </span>
+                    </p>
+                  )}
+                </div>
+
+                {value.details ? (
+                  <div class="details">
+                    <p class="details-text">
+                      <span class="label">Details: </span>
+                      {value.details}
+                    </p>
+                  </div>
+                ) : null}
+              </div>
             </div>
           );
         })}
-      </div>
+      </section>
     </div>
   );
 }
