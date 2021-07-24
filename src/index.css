@@ -32,6 +32,10 @@ label {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem; }
 
+a {
+  text-decoration: none;
+  font-weight: 600; }
+
 .header {
   padding: 3rem;
   margin-bottom: 5rem;
@@ -45,6 +49,11 @@ label {
     width: 100%;
     border-color: grey;
     max-width: 500px; }
+  .header .attribution {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem; }
 
 .container {
   display: flex;
@@ -80,6 +89,10 @@ label {
     overflow: hidden;
     transition: transform 0.5s;
     -webkit-transition: transform 0.5s; }
+    .cards .card:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.3s ease; }
     .cards .card .recyclable {
       padding: 2rem; }
     .cards .card .recyclable-text {

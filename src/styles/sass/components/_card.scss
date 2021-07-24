@@ -37,6 +37,12 @@
     transition: transform 0.5s;
     -webkit-transition: transform 0.5s;
 
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.3s ease;
+    }
+
     .recyclable {
       padding: 2rem;
     }

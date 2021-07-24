@@ -37,6 +37,12 @@ function App() {
   return (
     <div className="App">
       <header class="header">
+        <p class="attribution">
+          Built By{" "}
+          <a href="https://www.darian.digital" target="_blank">
+            darian.
+          </a>
+        </p>
         <h1 class="title">Can I Recyle It</h1>
         <input
           type="text"
