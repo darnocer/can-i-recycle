@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Scrap Metal",
+    "keywords": "scrap metal steel",
+    "category": "Steel & Aerosol",
+    "recyclable": "no"
+  },
+
+  {
+    "name": "Fuel Canisters",
+    "keywords": "fuel canisters camping tanks",
+    "category": "Steel & Aerosol",
+    "recyclable": "no"
+  },
+
+  {
+    "name": "Aerosol Cans",
+    "keywords": "aerosol cans",
+    "category": "Steel & Aerosol",
+    "recyclable": "yes",
+    "details": "Must be empty. No full or partially-full cans. Remove plastic caps. Labels are okay. Spray nozzles are okay."
+  },
+  {
+    "name": "Glassware",
+    "keywords": "glass glassware drinking cups glasses vases",
+    "category": "Glass",
+    "recyclable": "no"
+  },
+
+  {
+    "name": "Window Glass",
+    "keywords": "window glass",
+    "category": "Glass",
+    "recyclable": "no"
+  },
+  {
+    "name": "Ceramics",
+    "keywords": "ceramic pots",
+    "category": "Glass",
+    "recyclable": "no"
+  },
+  {
+    "name": "Glass Bottles & Jars",
+    "keywords": "glass bottles and jars",
+    "category": "Glass",
+    "recyclable": "yes",
+    "details": "Food & beverage glass bottles & jars only. Remove lids. Large metal lids can be recycled, but still must be removed."
+  },
+  {
+    "name": "Foil Bags",
+    "keywords": "aluminum foil bags potata chip snack bags",
+    "category": "Aluminum",
+    "recyclable": "no",
+    "details": "Such as potato chip bags"
+  },
+  {
+    "name": "Foil Lids",
+    "keywords": "aluminum foil lids yogurt lids",
+    "category": "Aluminum",
+    "recyclable": "no",
+    "details": "Such as yogurt lids"
+  },
+  {
+    "name": "Aluminum Cans",
+    "keywords": "aluminum cans beer cans soda cans pop cans",
+    "category": "Aluminum",
+    "recyclable": "yes",
+    "details": "Do not crush aluminum cans"
+  },
+
+  {
+    "name": "Aluminum Trays",
+    "keywords": "aluminum trays aluminum pie plates",
+    "category": "Aluminum",
+    "recyclable": "yes",
+    "details": "Remove as much food residue as possible"
+  },
+
+  {
+    "name": "Aluminum Foil",
+    "keywords": "aluminum foil",
+    "category": "Aluminum",
+    "recyclable": "yes",
+    "details": "Remove as much food residue as possible"
+  },
+  {
+    "name": "Foil-Coated Paperboard",
+    "keywords": "foil-coated paperboard foil paperboard",
+    "category": "Cardboard",
+    "recyclable": "no"
+  },
+  {
+    "name": "Waxed Cardboard",
+    "keywords": "waxed cardboard waxy cardboard",
+    "category": "Cardboard",
+    "recyclable": "no"
+  },
+  {
+    "name": "Cardboard",
+    "keywords": "cardboard boxes",
+    "category": "Cardboard",
+    "recyclable": "yes",
+    "details": "Flatten and cut to pieces no larger than 2 feet by 2 feet."
+  },
+
+  
+  {
+    "name": "Paperboard",
+    "keywords": "paperboard boxes shoe boxes gift boxes cereal boxes tissue boxes egg cartons toilet paper tubes paper towel tubes",
+    "category": "Cardboard",
+    "recyclable": "yes",
+    "details": "Flatten and cut to pieces no larger than 2 feet by 2 feet. Remove plastic bags, plastic film or wax paper bags. Includes boxes for cereal, tissues, food; gift boxes and shoe boxes; hanging file folders; toilet paper and paper towel tubes"
+  },
+
+  {
+    "name": "Pizza Boxes",
+    "keywords": "cardboard pizza boxes",
+    "category": "Cardboard",
+    "recyclable": "yes",
+    "details": "Accepted, only if not greased through to the other side."
+  },
+  {
+    "name": "Paper Boxes and Cartons",
+    "keywords": "paper boxes paper cartons",
+    "category": "Cardboard",
+    "recyclable": "yes"
+  },
+
+  {
+    "name": "Plastic Bags",
+    "keywords": "plastic bags",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+
+  {
+    "name": "Bubble Wrap",
+    "keywords": "bubble wrap bubble mailers envelopes",
+    "category": "Plastic",
+    "recyclable": "no",
+    "details": "Includes envelopes with bubble wrap inside"
+  },
+
+  {
+    "name": "Candy or Food Wrappers",
+    "keywords": "candy wrappers food wrappers",
+    "category": "Plastic",
+    "recyclable": "no",
+    "details": "Includes envelopes with bubble wrap inside"
+  },
+  {
+    "name": "Cassettes, DVD's, CD's, or plastic cases",
+    "keywords": "Cassettes DVDs CDs DVD's CD's plastic cases",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Plastic Containers Larger than 3 Gallons",
+    "keywords": "platic containers platic jugs gallon",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Plastic Tubes",
+    "keywords": "platic tubes garden hoses",
+    "category": "Plastic",
+    "recyclable": "no",
+    "details": "Such as garden hoses"
+  },
+  {
+    "name": "Juice Pouches",
+    "keywords": "juice pouches",
+    "category": "Plastic",
+    "recyclable": "no",
+    "details": "Paperboard juice boxes okay."
+  },
+  {
+    "name": "K-Cups",
+    "keywords": "K-Cups K Cups individual coffee creamers",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Plastic Containers Labeled 'Compostable'",
+    "keywords": "compostable plastic containers",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Plastic Flower Pots",
+    "keywords": "plastic flower pots plant potters",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Plastic Shrink Wrap",
+    "keywords": "plastic shrink wrap cling wrap",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Toothpaste Tubes",
+    "keywords": "plastic toothpaste tubes",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Styrofoam or Packing Peanuts",
+    "keywords": "styrofoam peanuts packing peanuts",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+
+  {
+    "name": "Toys",
+    "keywords": "plastic kids toys",
+    "category": "Plastic",
+    "recyclable": "no"
+  },
+  {
+    "name": "Rigid Plastic Bottles",
+    "keywords": "Rigid Plastic Bottles soda bottles water bottles shampoo bottles soap bottles",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Exmaples like soda, water, shampoo, soap bottles."
+  },
+  {
+    "name": "Rigid Plastic Jugs",
+    "keywords": "Rigid Plastic Jugs milk jugs laundry detergent jugs cat litter jugs.",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Exmaples like milk, laundry detergent, cat litter jugs."
+  },
+  {
+    "name": "Rigid Plastic Jars",
+    "keywords": "Rigid Plastic Tubs peanut butter jars mayonnaise jars",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Examples like peanut butter and mayonnaise jars."
+  },
+  {
+    "name": "Rigid Plastic Tubs",
+    "keywords": "Rigid Plastic Tubs yogurt sour cream cottage cheese butter tubs",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Examples like yogurt, sour cream, cottage cheese, and butter tubs."
+  },
+  {
+    "name": "Rigid Plastic Trays",
+    "keywords": "platic trays microwave dinner trays",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": " Like those used for microwave dinners"
+  },
+  {
+    "name": "Clear Plastic 'Clam-Shell' Containers",
+    "keywords": "plastic containers clam-shell containers strawberry berries cookies egg cartons",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Like those used strawberries, bakery goods, and salads and including egg cartons and cookie divider shells."
+  },
+  {
+    "name": "Plastic Containers",
+    "keywords": "plastic containers #1 #2 #3 #4 #5 #6 #7",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Plastic labeled #1-#7."
+  },
+  {
+    "name": "Paper Food & Beverage Cartons",
+    "keywords": "paper cartons food cartons beverage cartons milk cartons juice cartons egg cartons juice boxes ice cream cartons",
+    "category": "Paper",
+    "recyclable": "yes",
+    "details": "Do not flatten cartons. All food and beverage cartons including: Milk (dairy, soy & almond), juice, cream, egg white & egg substitute, soup & broth, protein drinks, eggnog, wine, tofu, small juice boxes and ice cream & frozen yogurt."
+  },
+  {
+    "name": "Hot/Cold Paper Cups",
+    "keywords": "hot cups cold cups paper coffee cups",
+    "category": "Plastic",
+    "recyclable": "yes",
+    "details": "Paper cups must be clean and empty. Paper cups must be bare — all sleeves, lids, straws and stirring sticks must be removed."
+  },
+  {
+    "name": "Newspapers, Magazines, and Phone Books",
+    "keywords": "newspapers magazines phone books catlogs",
+    "category": "paper",
+    "recyclable": "yes",
+    "details": "Remove plastic bags and wrap. Discard non-paper inserts such as magnets or sample packets."
+  },
+
+  {
+    "name": "Office Paper, Junk Mail, and Stationary",
+    "keywords": "office paper junk mail staples envelopes postcards greeting cards inde cards stationary",
+    "category": "paper",
+    "recyclable": "yes",
+    "details": "Window envelopes are okay to recycle. Paperclips, stamps, staples, tape and sticky notes are okay."
+  },
+
+  {
+    "name": "Paper Bags",
+    "keywords": "paper bags department store rope",
+    "category": "paper",
+    "recyclable": "yes",
+    "details": "Department store 'non-glossy' type paper bags are okay, but remove rope handles."
+  },
+
+  {
+    "name": "Wrapping or Tissue Paper",
+    "keywords": "wrapping paper tissue paper gift wrap ribbons",
+    "category": "paper",
+    "recyclable": "no",
+    "details": "Includes ribbons and bows."
+  },
+
+  {
+    "name": "Paper plates, paper towels, tissues, napkins",
+    "keywords": "paper plates paper towels tissues napkins",
+    "category": "paper",
+    "recyclable": "no"
+  },
+  {
+    "name": "Shredded Paper",
+    "keywords": "shredded paper",
+    "category": "paper",
+    "recyclable": "no"
+  }
+
+
+
+]
