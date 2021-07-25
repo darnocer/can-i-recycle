@@ -39,7 +39,11 @@ function App() {
       <header className="header">
         <p className="attribution">
           Built By{" "}
-          <a href="https://www.darian.digital" target="_blank">
+          <a
+            href="https://www.darian.digital"
+            target="_blank"
+            alt="Darian Nocera"
+            rel="noreferrer">
             darian.
           </a>
         </p>
@@ -48,6 +52,7 @@ function App() {
           type="text"
           placeholder="milk jugs, egg cartons, etc."
           className="search"
+          autoFocus
           onChange={(event) => handleSearch(event)}
         />
       </header>
