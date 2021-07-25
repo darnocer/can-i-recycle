@@ -55,6 +55,20 @@ function App() {
           autoFocus
           onChange={(event) => handleSearch(event)}
         />
+
+        <div className="source">
+          <p>
+            All data provided by the{" "}
+            <a
+              href="https://www.denvergov.org/Government/Departments/Recycle-Compost-Trash/Recycle#section-2"
+              target="_blank"
+              rel="noreferrer"
+              alt="City and County of Denver">
+              City and County of Denver
+            </a>
+            .
+          </p>
+        </div>
       </header>
 
       <section className="container">

@@ -41,7 +41,7 @@ a {
   font-weight: 600;
   color: #11998e; }
   a:visited {
-    color: #38ef7d; }
+    color: #11998e; }
 
 .header {
   padding: 3rem;
@@ -64,6 +64,8 @@ a {
     right: 0;
     top: 0;
     padding: 1rem; }
+  .header .source {
+    margin-top: 3rem; }
 
 .container {
   display: flex;
