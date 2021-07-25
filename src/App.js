@@ -29,7 +29,7 @@ function App() {
     let result = [];
     console.log(value);
     result = allData.filter((data) => {
-      return data.keywords.search(value) != -1;
+      return data.keywords.search(value) !== -1;
     });
     setFilteredData(result);
   };

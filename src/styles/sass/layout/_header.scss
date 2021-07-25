@@ -13,16 +13,10 @@
     border-bottom: 2px solid grey;
     outline: 0;
     background: transparent;
-    min-height: 40px;
+    min-height: 50px;
     width: 100%;
     max-width: 500px;
-    font-size: 2rem;
-
-    &:focus {
-      border-width: 3px;
-      border-image: linear-gradient(to right, #11998e, #38ef7d);
-      border-image-slice: 1;
-    }
+    font-size: 2.5rem;
   }
 
   .attribution {
