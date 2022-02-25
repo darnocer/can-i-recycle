@@ -281,11 +281,17 @@
     "details": "Paper cups must be clean and empty. Paper cups must be bare — all sleeves, lids, straws and stirring sticks must be removed."
   },
   {
-    "name": "Newspapers, Magazines, and Phone Books",
+    "name": "Newspapers, Magazines, and Catalogs",
     "keywords": "newspapers magazines phone books catlogs",
     "category": "paper",
     "recyclable": "yes",
-    "details": "Remove plastic bags and wrap. Discard non-paper inserts such as magnets or sample packets."
+    "details": "Includes phone books. Remove plastic bags and wrap. Discard non-paper inserts such as magnets or sample packets."
+  },
+  {
+    "name": "Paperback or Hardcover Books",
+    "keywords": "books paperback hardcover hard cover",
+    "category": "paper",
+    "recyclable": "no"
   },
 
   {

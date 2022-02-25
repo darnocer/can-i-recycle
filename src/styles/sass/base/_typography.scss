@@ -7,7 +7,7 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -31,4 +31,9 @@ a {
   &:visited {
     color: #11998e;
   }
+}
+
+.source {
+  text-align: center;
+  margin: 3rem 0;
 }
