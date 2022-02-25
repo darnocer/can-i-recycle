@@ -1,0 +1,15 @@
+.search {
+    border: 2px solid grey;
+    border-radius: 3px;
+    background: #fff;
+    min-height: 50px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    max-width: 500px;
+    font-size: 2rem;
+    color: #11998E;
+    &:focus {
+        outline: none;
+    }
+  }

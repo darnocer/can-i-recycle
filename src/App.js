@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <header className="header">
         <p className="attribution">
-          Built By{" "}
+          Made with 👽 By{" "}
           <a
             href="https://www.darian.digital"
             target="_blank"
@@ -47,16 +47,21 @@ function App() {
             darian.
           </a>
         </p>
-        <h1 className="title">Can I Recyle...</h1>
+        <h1 className="title">Can I Recyle It?</h1>
+        
         <input
           type="text"
-          placeholder="milk jugs, egg cartons, etc."
+          placeholder="Search for materials here"
           className="search"
           autoFocus
           onChange={(event) => handleSearch(event)}
         />
 
-        <div className="source">
+
+
+        
+      </header>
+      <div className="source">
           <p>
             All data provided by the{" "}
             <a
@@ -66,12 +71,12 @@ function App() {
               alt="City and County of Denver">
               City and County of Denver
             </a>
-            .
+            . Please verify your local recycling laws.
           </p>
         </div>
-      </header>
 
       <section className="container">
+
         {filteredData.map((value, index) => {
           return (
             <div className="cards">
@@ -107,6 +112,7 @@ function App() {
           );
         })}
       </section>
+      <footer className="footer"><p>© 2021 Darian Nocera. All Rights Reserved.</p></footer>
     </div>
   );
 }
